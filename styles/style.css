@@ -1,0 +1,108 @@
+/* Main, elements */
+body, html {
+	height: 100%;
+	background-color: #F9F9F9;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 1rem;
+	overflow: hidden;
+    position: relative;
+}
+
+.img1{
+	width: 9rem;
+}
+
+h1 {
+    font-size: 3.8em;
+    opacity: 0.7;
+}
+
+h2 {
+    font-size: 2.6em;
+    opacity: 0.7;
+}
+
+
+/* Image */
+.main2 .content  img {
+    width: 250px;
+    height: 250px;
+    margin: 5px auto;
+    border-radius: 50%;
+}
+
+
+/* Header */
+.main header {
+	position: fixed;
+	padding: 1.875rem;
+	display: table;
+	width: 100%;
+	pointer-events: none;
+}
+
+
+/* Content */
+.main2 {
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.main2 .content {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+.main2 .content h1 {
+	margin-bottom: 1rem;
+}
+
+.main2 .content h2 {
+	margin-top: 0.6rem;
+	margin-bottom: 2.rem;
+}
+
+/* Footer */
+footer {
+	position: absolute;
+	bottom: 2.5rem;
+	text-align: center;
+	width: 100%;
+}
+
+footer .icons a {
+	opacity: .68;
+	color: #2f2e40;
+	padding: .3125rem .625rem;
+	display: inline-block;
+	font-size: 1.89rem;
+}
+
+footer .icons a:hover {
+	opacity: 0.89;
+}
+
+
+/* Font sizes for small screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
+  
+/* Font sizes for smaller screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+}
